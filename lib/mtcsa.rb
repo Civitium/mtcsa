@@ -46,7 +46,7 @@ module MTCSA
             return {
               address: "#{b[:address]} UNIT #{box.to_i} #{b[:city]} #{b[:state]} #{b[:zip]}", 
               line_1: "#{b[:address]} UNIT #{box.to_i}",
-              line_2: "#{b[:city]} #{b[:state]} #{b[:zip]} "
+              line_2: "#{b[:city]} #{b[:state]} #{b[:zip]}"
             } 
           end
         end
